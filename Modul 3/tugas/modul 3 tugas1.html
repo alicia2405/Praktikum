@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir Puskesmas</title>
+    </head>
+    <body>
+        <form action = "formulir.html" method = "get">
+            Nama : <input type = "text" name = "nama" />
+            <br />
+            Jenis Kelamin : <input type = "radio" name = "jenis_kelamin" value = "laki-laki" checked />
+            Laki-Laki 
+            <input type = "radio" name = "jenis_kelamin" value = "perempuan" />
+            Perempuan
+            <br />
+            Kecamatan :
+                <select name = "kecamatan">
+                    <option value = "manguharjo"> Manguharjo</option>
+                    <option value = "taman">Taman</option>
+                    <option value = "kartoharjo" selected> Kartoharjo </option>
+                </select>
+                <br />
+            Poli : <input type = "checkbox" name = "poli_gigi" /> Poli Gigi
+                   <input type = "checkbox" name = "poli_anak" checked /> Poli Anak
+                   <input type = "checkbox" name = "poli_umum" /> Poli Umum
+            <br />
+            Pesan saran :
+            <textarea name = "pesan_saran" rows = "5" cols = "30">Silahkan tuliskan keluhan riwayat alergi obat atau keluhan lainnya</textarea>
+            <br />
+            <input type = "submit" value = "Mulai Proses!">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir Klinik Sehat</title>
+    </head>
+    <body>
+        <form action = "formulir.html" method = "get">
+            Nama : <input type = "text" name = "nama" />
+            <br />
+            Jenis Kelamin : <input type = "radio" name = "jenis_kelamin" value = "laki-laki" checked />
+            Laki-Laki 
+            <input type = "radio" name = "jenis_kelamin" value = "perempuan" />
+            Perempuan
+            <br />
+            Layanan :
+                <select name = "layanan">
+                    <option value = "umum"> Klinik Umum </option>
+                    <option value = "gigi"> Klinik Gigi </option>
+                    <option value = "anak" selected> Klinik Anak </option>
+                </select>
+                <br />
+            Keluhan : <input type = "checkbox" name = "konsultasi" /> Konsultasi
+                   <input type = "checkbox" name = "cek_darah" checked /> Cek Darah
+                   <input type = "checkbox" name = "tindakan" /> Tindakan
+            <br />
+            Pesan saran :
+            <textarea name = "pesan_saran" rows = "5" cols = "30">Silahkan tuliskan keluhan riwayat alergi obat atau jadwal kunjungan yang diinginkan</textarea>
+            <br />
+            <input type = "submit" value = "Mulai Proses!">
+        </form>
+    </body>
+</html>
